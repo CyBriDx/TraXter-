@@ -1,6 +1,8 @@
 # (**🕵️**) Tra❌ter
 
 - **Table of Contents**
-  - ..
-  - ..
-  - [(📙) **References**](#️-references)
+  - [**Introduction**](introduction)
+  - [**Architecture**](architecture)
+  - [**Challenges**](challenges)
+  - [**Conclusion**](conclusion)
+  - [**References**](references)
