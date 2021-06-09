@@ -2,5 +2,7 @@
 
 - **Table of Contents**
   - [**Introduction**](introduction)
-  - ..
-  - [(📙) **References**](references)
+  - [**Architecture**](architecture)
+  - [**Challenges**](challenges)
+  - [**Conclusion**](conclusion)
+  - [**References**](references)
