@@ -17,7 +17,7 @@ def data():
            ImageFont.truetype('./Assets/Fonts/Hack-Bold.ttf'
                             , 28, encoding='unic')
         (text_width, text_height) = font.getsize(text)
-        canvas = Image.new('RGB', (text_width + 10, text_height * 6),
+        canvas = Image.new('RGB', (text_width + 2, text_height * 4),
                             'orange')
         draw = ImageDraw.Draw(canvas)
         draw.text((5, 5), text, 'blue', font)
