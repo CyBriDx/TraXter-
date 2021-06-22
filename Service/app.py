@@ -14,7 +14,7 @@ def data():
         text = 'Slicers: ' + slicerNames + '\nValues: ' + slicerValues \
             + '\nTime: ' + unixTime + '\nUser Name: ' + username
         font = \
-           ImageFont.truetype('/usr/share/fonts/truetype/hack/Hack-Bold.ttf'
+           ImageFont.truetype('./Assets/Fonts/Hack-Bold.ttf'
                             , 28, encoding='unic')
         (text_width, text_height) = font.getsize(text)
         canvas = Image.new('RGB', (text_width + 10, text_height * 6),
