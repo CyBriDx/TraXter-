@@ -1,7 +1,7 @@
 # (**🪜**) **Milestone**
 
 | # | What?                                           | How?                   | When? | Owner |
-|:--|:-----|:---------------------------------------  -------|:-----------------------|:------|
+|:--|:------------------------------------------------|:-----------------------|:------|:------|
 | 1 | Retreiving selected values from Slicer(s)       | Using DAX measure      | 21-22 |   *   |
 | 2 | Constructing GET URL and passing values         | Through Image resource | 21    |   *   |
 | 3 | Format the data for Push dataset I/P            | In WebApp (Python)     | 29-1  |   *   |
