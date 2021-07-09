@@ -11,6 +11,7 @@ app = Flask(__name__)
 url = "https://api.powerbi.com/beta/62749e39-ab58-47c0-b2f4-6a8c59465a9c/datasets/9f5368d8-b7b2-4a65-a9c6-7141f8f65548/rows?key=JkUYwx2iNjqlz0hdGgBroU9skFjqUt5w4Ra1m1%2Faw7MnKGLEyHM7xPcEzdeUHg7ZTpzcMM%2FixPTSjWnPL65mzg%3D%3D"
 
 @app.route('/data')
+
 def data():
         slicerValues = pp.commaSeparatedList.parseString(request.args.get('Values')).asList()
         slicerNames = pp.commaSeparatedList.parseString(request.args.get('Filters')).asList()
